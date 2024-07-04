@@ -21,7 +21,7 @@ def sendMessage():
 				print(user)
 				user.click()
 
-				text_box = driver.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div[2]/div[1]/p')
+				text_box = driver.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div/p')
 				text_box.send_keys("Hello ",name)
 
 				
